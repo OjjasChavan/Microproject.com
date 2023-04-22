@@ -342,3 +342,17 @@ u {
   font-family: "Italianno", sans-serif;
   font-size: 5em;
 }
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(68, 68, 68);
+  color: rgb(181, 181, 181);
+  font-size: 25px;
+  text-decoration: none;  
+}
+
+.footer_a {
+  color: rgb(181, 181, 181);
+  cursor: pointer;
+} 
