@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WPD Micro-Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <img src="logo.png" alt="" class="logo">
+  <nav>
+		<a class="active" href="#home">Home</a>
+		<a href="#about">About</a>
+		<div class="subnav">
+      <a href="#">Countries</a>
+      <div class="subnav-content">
+        <a href="#india">Country 1</a>
+        <a href="#us">Country 2</a>
+        <a href="#canada">Country 3</a>
+        <a href="#japan">Country 4</a>
+        <a href="#swis">Country 5</a>
+        <a href="#china">Country 6</a>
+      </div>
+    </div>
+    
+	</nav>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			document.querySelector('.subnav-content').style.display = "none";
+		});
+
+		// Show sub-navigation when hovering over "Countries" link
+		document.querySelector('.subnav').addEventListener('mouseenter', function() {
+			document.querySelector('.subnav-content').style.display = "block";
+		});
+
+		// Hide sub-navigation when leaving "Countries" link
+		document.querySelector('.subnav').addEventListener('mouseleave', function() {
+			document.querySelector('.subnav-content').style.display = "none";
+		});
+	</script>
+      
+    <section class="home_sec" id = "home">
+        <center><h1 class="home_h1">Different Countries and their Cultures</h1></center>
+    </section>
+    <hr>
+    <section class="second_sec" id="about">
+        <center><u><h1 class = "about_title">About Different countries and their Cultures</h1></u></center>
+        <p class="about_para">There are currently 195 recognized countries in the world, according to the United Nations. However, this number can vary depending on how different countries are defined, as some territories are claimed by multiple countries or have disputed sovereignty. The number of countries has also changed over time, with new nations emerging and some merging or ceasing to exist.
+            As for cultures, the number is difficult to quantify as culture is not easily defined or measured. Culture refers to the shared beliefs, values, customs, behaviors, and artifacts that characterize a group or society. Each country may have multiple cultures within it, based on factors such as ethnicity, religion, language, and regional differences.
+            Moreover, cultures are not static and can evolve over time as societies change and interact with each other. This means that cultures can be fluid and dynamic, and there may be many subcultures within a larger cultural group. In short, the number of cultures in the world is impossible to determine precisely, but it is safe to say that there are countless variations and expressions of human culture across the globe.</p>
+    </section>
+    <hr>
+    <section class="exaples_sec" id = "india">
+            <center><h2 class="examples_h2">Here are few Countries and their cultures: </h2></center>
+            <h1 class="india">1) India: </h1>
+            <p class="india_para">India is considered the birthplace of some of the world's major religions: Buddhism, Hinduism, Jainism and Sikhism. Today, other religions such as Muslim and Christianity have worked their way into the population as well, though Hinduism remains the most popular.
+                The culture of India is considered approximately 5,000 years old. It is identified from the archaeological proof that an extremely classy urbanized culture known as the Indus civilization influenced the northwestern area of the Indian subcontinent in between 2600 to 1500 BCE.
+            </p>
+            <center><a href="https://en.wikipedia.org/wiki/Culture_of_India" class = "india_wiki" target="_blank">Click here to know more about the Indian Culture...</a></center>
+    </section>
+    <hr>
+    <section class = "us_sec" id = "us">
+        <h1 class="us">2) United States: </h1>
+        <p class="us_para">The United States is a diverse country with a rich cultural heritage. Its history of immigration and cultural exchange has led to the development of a unique and varied cultural landscape. There are many different cultures and subcultures within the United States, ranging from Native American traditions to European, African, and Asian influences.
+
+            One of the defining characteristics of American culture is its emphasis on individualism and personal freedom. This has led to the development of a vibrant and dynamic arts scene, with music, film, literature, and other forms of creative expression thriving throughout the country.
+            
+            Religion is also an important part of American culture, with Christianity being the dominant faith. However, </p>
+            <center><a href="https://en.wikipedia.org/wiki/Culture_of_United_States" class = "us_wiki" target="_blank">Click here to know more about the U.S Culture...</a></center>
+    </section>
+    <hr>
+    <section class = "us_sec" id = "canada">
+      <h1 class="canada">3) Canada: </h1>
+      <p class="canada_para">Canada is a country that celebrates diversity and multiculturalism. Its cultural landscape is a mosaic of different traditions and influences, from Indigenous cultures to European, Asian, and African traditions. There are two official languages in Canada, English and French, which reflects the country's colonial history and bilingual identity.
+
+        Indigenous cultures are an integral part of Canadian society, with First Nations, Inuit, and Métis communities playing an important role in shaping the country's cultural identity. Many of these traditions have been passed down through generations and include practices such as powwows, storytelling, and Indigenous language revitalization.</p>
+          <center><a href="https://en.wikipedia.org/wiki/Culture_of_Canada" class = "canada_wiki" target="_blank">Click here to know more about the Canadian Culture...</a></center>
+  </section>
+  <hr>
+  <section class = "us_sec" id = "japan">
+    <h1 class="japan">4) Japan: </h1>
+    <p class="japan_para">Japanese culture is a unique and fascinating blend of ancient traditions and modern innovations. The country's long history and isolation from outside influences have contributed to the development of a distinct cultural identity. Japan is known for its emphasis on respect, order, and harmony, which is reflected in everything from its social customs to its art and design.
+
+      One of the most prominent features of Japanese culture is its cuisine. Japanese food is known for its clean and simple flavors, as well as its attention to detail in presentation. Traditional dishes like sushi, ramen, and tempura have become popular all over the world.</p>
+        <center><a href="https://en.wikipedia.org/wiki/Culture_of_Japan" class = "japan_wiki" target="_blank">Click here to know more about the Japan Culture...</a></center>
+</section>
+<hr>
+<section class = "us_sec" id = "swis">
+  <h1 class="swis">5) Switzerland: </h1>
+  <p class="swis_para">Switzerland is a small, landlocked country located in the heart of Europe. Despite its small size, Switzerland has a rich and diverse cultural heritage that reflects its position at the crossroads of different European regions. The country is known for its natural beauty, including its stunning alpine landscapes, which have been a source of inspiration for artists and writers for centuries.
+
+    One of the defining characteristics of Swiss culture is its multilingualism. The country has four official languages - German, French, Italian, and Romansh - and each language region has its own unique customs and traditions. Swiss German culture, for example, is known for its emphasis on precision, punctuality, and efficiency, while French-speaking Switzerland is known for its gastronomy, wine, and cheese.</p>
+      <center><a href="https://en.wikipedia.org/wiki/Culture_of_Switzerland" class = "swis_wiki" target="_blank">Click here to know more about the Switzerland Culture...</a></center>
+</section>
+<hr>
+<section class = "us_sec" id = "china">
+  <h1 class="china">6) China: </h1>
+  <p class="china_para">China has a rich and diverse cultural heritage that spans thousands of years. The country's long history and vast geographic size have given rise to a wide range of customs, traditions, and practices that are still influential today.
+
+    One of the most notable aspects of Chinese culture is its language, Mandarin Chinese. With over 1 billion speakers worldwide, it is the most widely spoken language in the world. Chinese calligraphy is also an important part of the country's culture, with its intricate strokes and rich symbolism.
+    
+    Chinese cuisine is another defining characteristic of the country's culture. From spicy Sichuan cuisine to delicate Cantonese dim sum, Chinese food is known for its variety, flavor, and health benefits. Tea is also an important part of Chinese culture, with tea ceremonies and tea houses being popular social activities.</p>
+      <center><a href="https://en.wikipedia.org/wiki/Culture_of_China" class = "china_wiki" target="_blank">Click here to know more about the Chianese Culture...</a></center>
+</section>
+<hr>
+</body>
+</html>
